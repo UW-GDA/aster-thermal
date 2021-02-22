@@ -39,13 +39,13 @@ Snowmelt plays an essential role in the hydrologic cycle, contributing up to 75%
 * Scaling function using NDVI to improve ASTER accuracy
 
 ## Preliminary Figures
-![resampled aster](./images/ASTER_resampled.png)
+![resampled aster](./images/ASTER_resampled_bckgd.png)\
 Fig. 1: Resampled ASTER imagery over study region in degrees Celsius.
 \
-![airborne](./images/airborne.png)
+![airborne](./images/airborne_bkgd.png)\
 Fig. 2: Airborne imagery over study region in degrees Celsius.
 \
-![difference map](./images/diff_map.png)
+![difference map](./images/diff_map_bkgd.png)\
 Fig. 3: Difference map of temperature values in degrees Celsius over coincident area.
 
 ## References
