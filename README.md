@@ -6,7 +6,7 @@ I will use zonal statistics to analyze how well ASTER TIR data emulates coincide
 
 ## Background
 Snowmelt plays an essential role in the hydrologic cycle, contributing up to 75% of water supply in parts of the western United States and having the potential to cause major floods across the globe (Dettinger, M. 2005). As a result, estimating the timing and magnitude of snowmelt is an integral water resources challenge; snow surface temperature observations are key to this issue. It is well established that snow melts at 0°C, so frequent snow temperature measurements supply crucial information for evaluating snowmelt. However, few ground observations of snow surface temperature are available, and those that are only represent a small area. \
-By measuring infrared radiation, satellite thermal imaging can remotely determine surface temperature of snow over large areas and time scales where ground observations are sparse or nonexistent. However, this imaging can be limited by its coarse spatial resolution, which results in a blurring of temperatures across study regions. This project investigates how satellite thermal infrared imaging represents snow surface temperature for an improved understanding of snowmelt timing and magnitude over larger spatial areas and timescales. 
+\By measuring infrared radiation, satellite thermal imaging can remotely determine surface temperature of snow over large areas and time scales where ground observations are sparse or nonexistent. However, this imaging can be limited by its coarse spatial resolution, which results in a blurring of temperatures across study regions. This project investigates how satellite thermal infrared imaging represents snow surface temperature for an improved understanding of snowmelt timing and magnitude over larger spatial areas and timescales. 
 
 ## Questions
 1. Does the 90 meter resolution ASTER thermal infrared imagery accurately capture the  mean snow surface temperature over the upper Tuolumne area in Yosemite, California? 
@@ -37,6 +37,16 @@ By measuring infrared radiation, satellite thermal imaging can remotely determin
 ## Expected Outcomes
 * Maps with how well ASTER captures surface temperature
 * Scaling function using NDVI to improve ASTER accuracy
+
+## Preliminary Figures
+![resampled aster](./images/ASTER_resampled.png)
+Fig. 1: Resampled ASTER imagery over study region in degrees Celsius.
+\
+![airborne](./images/airborne.png)
+Fig. 2: Airborne imagery over study region in degrees Celsius.
+\
+![difference map](./images/diff_map.png)
+Fig. 3: Difference map of temperature values in degrees Celsius over coincident area.
 
 ## References
 Dettinger, M. (2005). Changes in streamflow timing in the western United States in recent decades. USGS Numbered Series. [doi:10.3133/fs20053018](doi:10.3133/fs20053018) \
