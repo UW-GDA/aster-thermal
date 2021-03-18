@@ -1,6 +1,8 @@
 # Validating ASTER Thermal Infrared Imaging for use in Snow Models
 #### Calista Moore
 
+## See summary.ipynb for final work and conclusions.
+
 ## Summary
 I will use zonal statistics to analyze how well ASTER TIR data emulates coincident finer resolution airborne TIR for use in snow models. I would like to use NDVI to understand if vegetation impacts the results and identify a scaling function if ASTER does not capture surface temperature well enough for snow models.
 
